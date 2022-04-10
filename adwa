@@ -136,7 +136,7 @@ reach.MouseButton1Click:Connect(function()
     while _G.RGB == true do
         task.wait()
         folder.Material = "Glass"
-        folder.Size = workspace.Size + Vector3.new(0, -0.1, 0)
+        folder.Size = workspace.Size + Vector3.new(-0.1, -0.1, -0.1)
         folder.CFrame = workspace.CFrame
         folder.Transparency = 0
         folder.Color = Color3.fromHSV(tick()%5/5,1,1)
